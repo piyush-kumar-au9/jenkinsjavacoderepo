@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print environment
-        run: echo "Building for environment: ${{ github.event.inputs.environment }}"
+        run: echo "You selected the ${{ github.event.inputs.environment }} environment."
 
       - name: Checkout code
         uses: actions/checkout@v4
