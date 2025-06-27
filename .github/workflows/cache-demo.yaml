@@ -1,5 +1,4 @@
 name: CI with Cache Demo
-
 on:
   push:
     branches: [ main ]
